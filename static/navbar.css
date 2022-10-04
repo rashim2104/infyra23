@@ -138,14 +138,25 @@
 }
 
 @media screen and (min-width: 350px) and (max-width: 800px){
+    .overlay{
+        gap:10px;
+    }
+    .overlay h1{
+        margin-bottom: 5px;
+    }
     .header-nav .nav-buttons{
         display: none;
     }
-
+    .date-heading{
+        font-size:1.25rem;
+    }
     .nav-buttons-mobile{
         display: flex
     }
 
+    .header-nav .branding .brand-name{
+        transform: translateY(0);
+    }
     h1{
         font-size: 1.7rem;
     }
@@ -216,23 +227,31 @@
     .company-btns{
         flex-direction: column;
     }
-
     .company-btn{
         width: 60%;
     }
 
     footer{
+        margin-top:20%;
         align-items: center;
         flex-direction: column;
         padding: 7% 9%;
     }
 
+    .contact-card{
+        margin-top:20%
+    }
     .social-handles{
-        margin-left: 10%;
+        margin-left: 30%;
         margin-right: auto;
     }
 
     .schedule-event-logo{
         display: none;
+    }
+    
+    .top{
+        bottom:8vw;
+        right:8vw;
     }
 }
