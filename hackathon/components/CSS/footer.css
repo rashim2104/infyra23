@@ -83,7 +83,10 @@ footer a:hover{
 .lync{
   display: flex; 
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
 
 .social-handles img{
   filter: invert(100%);

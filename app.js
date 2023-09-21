@@ -1,5 +1,3 @@
-
-
 const overlayGlitch = document.querySelector('.overlay');
 const overlayGlitchEffect = PowerGlitch.glitch(overlayGlitch,{
   "playMode": "always",
@@ -30,12 +28,12 @@ overlayGlitchEffect.stopGlitch();
 
 setTimeout(() => {
   overlayGlitchEffect.startGlitch();
-}, 3200);
+}, 0);
 
 setTimeout(()=>{
   overlayGlitchEffect.stopGlitch();
   overlayGlitch.classList.add("hide-away");
-  document.querySelector(".hero").scrollIntoView();
+  document.querySelector(".he").scrollIntoView();
 },4500);
 
 setTimeout(() => {
@@ -88,8 +86,8 @@ function scrollFunction() {
 
 AOS.init();
 
-const heroImg = document.querySelector('.hero img')
-const heroImgGlitch = PowerGlitch.glitch(heroImg,{
+const heImg = document.querySelector('.he img')
+const heImgGlitch = PowerGlitch.glitch(heImg,{
   "playMode": "hover",
   "createContainers": true,
   "hideOverflow": false,

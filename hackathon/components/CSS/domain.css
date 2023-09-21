@@ -91,14 +91,17 @@
   .button1,.button2{
     display: flex;
     align-items: center;
-    border:none;
+    /* border:none; */
   }
   .button1,.button2{
     justify-content: center;
   }
+
+  
+
   #prev,#next{
     background: #000;
-    border:none;
+    border: none;
     transition: scale 0.3s;
   }
   #prev:active{
@@ -130,7 +133,7 @@
   }
   .domain-card{
     width:250px;
-    background: #888;
+    background: #F8D3D6;
     border-radius: 25%;
   }
   main a{
