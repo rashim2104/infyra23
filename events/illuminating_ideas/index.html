@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/ba5b6983d4.js" crossorigin="anonymous"></script>
+  <title>Illuminating Ideas</title>
+  <link rel="icon" href="../src/logo.ico">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <div class="header-nav">
+    <div class="branding">
+      <a href="/index.html"> <img src="../src/logo.jpg" alt=""></a>
+      <h1 class="brand-name">Infyra</h1>
+    </div>
+    <a class="btn1" href="https://forms.gle/ynHQpAtb4GqtVSTB7">Register</a>
+  </div>
+  <hr class="line">
+
+  <div class="middle-container">
+    <div>
+      <img class="letterimg" src="letter_box.png" alt="">
+      <h1 class="h1tag">Illuminating Ideas</h1>
+      <ol class="h2tag">A warm welcome to all the participants over there.</ol><br>
+      <ol class="h2tag">We are eagerly waiting to see you all in the event.</ol><br>
+      <ol class="h3tag"><i class="icon fa-regular fa-calendar-days fa-1.5x"></i> Date : 14th October</ol><br>
+      <ol class="h3tag"><i class="icon fa-regular fa-clock fa-1.5x"></i> Time : 10:00 AM ~ 12:00 PM</ol>
+      <br><br><br>
+      <hr class="line2"><br><br>
+      <ol class="h2tag-2">This is a Team event.</ol>
+      <br>
+      <ol class="h2tag-2">SPECIFICATIONS FOR PAPER PRESENTATION:</ol>
+      <br>
+      <div class="guidelines">
+
+        <br><br>
+        <ul class="h2tag-2">
+
+          <li class="h4tag">Each presenter will get 20 min for presentation + 10 min for Q & A.</li><br>
+          <li class="h4tag">The presentation should be only in MS PowerPoint (ppt /pptx) or PDF formats.</li><br>
+          <li class="h4tag">The first slide should display the title of the presentation & name of the presenter.</li><br>
+          <li class="h4tag">Presentation time restrictions will be strictly followed.</li><br>
+          <li class="h4tag">The presenter will be provided with an LED screen with a USB drive (if required).</li><br>
+          <li class="h4tag">Presenters are requested to send your presentation in advance to avoid any last-minute technology issues.</li><br>
+          <hr class="line">
+          <br <ul class="h2tag-2">To make your presentation more attractive and also to get a greater audience to your paper, we highly recommend you to follow these steps:
+        </ul><br><br>
+        <li class="h4tag">Kindly send us your introduction in 5 sentences highlighting your research area.</li><br>
+        <li class="h4tag">Create a video for 1 minute which will be showcased during the symposium and prior to that.</li><br>
+        <li class="h4tag">Note: Your paper presentation will be recorded during the symposium.</li><br><br>
+        <hr class="line">
+        <br>
+
+        <ul class="h2tag-2">Guidelines for creating a video :</ul><br><br>
+        <li class="h4tag">Just stand in front of a video camera or decent webcam with a plain background.</li><br>
+        <li class="h4tag">Kindly make sure that your voice is the clear and audio quality is good.</li><br>
+        <li class="h4tag">The length of the video should not exceed more than 60 seconds.- just your introduction, the main theme of research and a highlight of the paper in the English language.</li>
+        </ul>
+        <br><br><br><br>
+
+      </div>
+    </div>
+
+  </div>
+  <div class="form_1">
+    <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3HOyrcPVc9tcDdTPxCKdWhnNO24ErgQiIe_EuTsTjEPvQuA/formResponse" method="POST">
+      <h1>Register Now!</h1>
+      <div class="form-element">
+          <span>Name</span>
+          <input type="text" name="entry.929986179" required placeholder="Enter your Name">
+      </div>
+
+      <div class="form-element radioButton">
+          <span>Query</span>
+          <label for="Business">
+              <span>Business</span>
+              <input type="radio" name="entry.362425322" required id="Business" value="Business">
+          </label>
+          <label for="Personal">
+              <span>Personal</span>
+              <input type="radio" name="entry.362425322" id="Personal" value="Personal">
+          </label>
+      </div>
+
+      <div class="form-element">
+          <span>Message</span>
+          <textarea name="entry.1079929955" id="" cols="30" rows="10" required placeholder="Type your Message"></textarea>
+      </div>
+      <button type="submit">Send Message</button>
+  </form>
+
+  <script>
+      document.getElementById("myForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the form from submitting
+          var confirmed = window.confirm("Your response is recorded."); // Display a confirmation dialog
+          if (confirmed) {
+              // If the user clicks "OK," submit the form
+              this.submit();
+          }
+      });
+  </script>
+  </div>
+  <link rel="stylesheet" href="form.css">
+    
+  <a href="#" class="top">↑</a>
+
+  <script src="../src/particles.js"> </script>
+  <script src="../src/app.js"> </script>
+
+</body>
+
+</html>

@@ -37,8 +37,8 @@
 .header-nav .branding .brand-name{
     color: #eeeeee;
     font-size: 1.7rem;
-    font-family: 'Blanka', sans-serif;
-    letter-spacing: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    
     cursor: pointer;
     transform: translateY(-5px);
     transition: filter 0.3s ease, font-size 0.4s;
@@ -65,9 +65,9 @@
 
 .nav-btn:hover{
     color: white;
-    background-color: #1565c0;
+    background-color: #F9943B;
     transform: scale(1.1);
-    box-shadow: 0 0 15px #1565c0;
+    box-shadow: 0 0 15px #F9943B;
 }
 
 .hamburger{
@@ -185,9 +185,9 @@
 
     .nav-btn:focus{
         color: white;
-        background-color: #1565c0;
+        background-color: #F9943B;
         transform: scale(1.1);
-        box-shadow: 0 0 15px #1565c0;
+        box-shadow: 0 0 15px #F9943B;
     }
 
     .about-us{

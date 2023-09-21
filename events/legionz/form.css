@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap');
+
+.form-element{
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.form_1{
+    height: 55rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px #F9943B;
+    backdrop-filter: blur(1px) saturate(180%);
+    -webkit-backdrop-filter: blur(1px) saturate(180%);
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+form{
+    padding: 60px;
+    box-shadow: 0 0 10px #F9943B;
+    border-radius: 12px;
+    width: 80%;
+    max-width: calc(100% - 60px);
+}
+
+.form-element{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.form-element span{
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    border: 1px solid white;
+    line-height: 2;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.radioButton label{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.form_1 button{
+    font-size: 1.4rem;
+    color: #F9A23B;
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    text-decoration: none;
+    padding: .75rem 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #F9A23B;
+    outline: 1px solid #F9A23B;
+  }
+
+.form_1 button:hover{
+    color: white;
+    background-color: #F9A23B;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.1);
+    box-shadow: 0 0 35px #F9A23B;
+    cursor: pointer;
+  }
+  

@@ -1,6 +1,4 @@
-document.querySelector(".hero").scrollIntoView({
-  behavior: 'smooth'
-});
+
 
 const overlayGlitch = document.querySelector('.overlay');
 const overlayGlitchEffect = PowerGlitch.glitch(overlayGlitch,{
@@ -119,7 +117,7 @@ const heroImgGlitch = PowerGlitch.glitch(heroImg,{
 });
 
 document.addEventListener("DOMContentLoaded",()=>{
-  var time = new Date('19 October, 2022 10:00:00').getTime()/1000 + 1;
+  var time = new Date('13 October, 2023 10:00:00').getTime()/1000 + 1;
 
   var flipdown = new FlipDown(time).start().ifEnded(()=>{
       console.log("mudinchu")

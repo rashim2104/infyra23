@@ -1,11 +1,3 @@
-/* -----------------------------------------------
-/* Author : Vincent Garreau  - vincentgarreau.com
-/* MIT license: http://opensource.org/licenses/MIT
-/* Demo / Generator : vincentgarreau.com/particles.js
-/* GitHub : github.com/VincentGarreau/particles.js
-/* How to use? : Check the GitHub README
-/* v2.0.0
-/* ----------------------------------------------- */
 
 var pJS = function(tag_id, params){
 
@@ -73,7 +65,7 @@ var pJS = function(tag_id, params){
       },
       move: {
         enable: true,
-        speed: 2,
+        speed: 0.1,
         direction: 'none',
         random: false,
         straight: false,
@@ -91,11 +83,11 @@ var pJS = function(tag_id, params){
       detect_on: 'canvas',
       events: {
         onhover: {
-          enable: true,
+          enable: false,
           mode: 'grab'
         },
         onclick: {
-          enable: true,
+          enable: false,
           mode: 'push'
         },
         resize: true
@@ -311,7 +303,7 @@ var pJS = function(tag_id, params){
         this.vo = this.vo * Math.random();
       }
     }
-
+console.log("Developed by - Ashik Irfan");
     /* animation - velocity for speed */
     var velbase = {}
     switch(pJS.particles.move.direction){

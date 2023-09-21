@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="form.css">
+  <script src="https://kit.fontawesome.com/ba5b6983d4.js" crossorigin="anonymous"></script>
+  <title>Iconic U&I</title>
+  <link rel="icon" href="../src/logo.ico">
+</head>
+
+<body>
+  <div id="particles-js"></div>
+  <div class="header-nav">
+    <div class="branding">
+      <a href="/index.html"> <img src="../src/logo.jpg" alt=""></a>
+      <h1 class="brand-name">Infyra</h1>
+    </div>
+    <a class="btn1" href="#registration-section">Register</a>
+  </div>
+  <hr class="line">
+
+  <div class="middle-container">
+    <div class="middummy">
+      <img class="letterimg" src="iconicu&i.png" alt="">
+      <h1 class="h1tag">Iconic U & I</h1>
+      <ol class="h2tag">A warm welcome to all the participants over there.</ol><br>
+      <ol class="h2tag">We are eagerly waiting to see you all in the event.</ol><br>
+      <ol class="h3tag"><i class="icon fa-regular fa-calendar-days fa-1.5x"></i> Date : 14th October</ol><br>
+      <ol class="h3tag"><i class="icon fa-regular fa-clock fa-1.5x"></i> Time : 10:00 am ~ 12:00 pm</ol>
+      <br><br><br>
+      <hr class="line2"><br><br>
+
+      <ol class="h2tag-2">This is a Team event.</ol>
+      <br>
+      <div class="guidelines">
+        <br><br>
+        <ol class="h2tag-3">There are two rounds:</ol>
+        <br><br>
+
+        <ul class="h2tag-2">Round 1- Elimination Round</ul><br>
+        <li class="h4tag">This will be a pen and paper round.</li><br>
+        <li class="h4tag">There will be 25 questions (15 MCQs and 10 with no options)covering the topics International, National, Technology, Programming, Miscellaneous.</li><br>
+        <li class="h4tag">Each team is allowed to discuss and write down or choose the answers.</li><br>
+        <li class="h4tag">The round will start at 10:00 am and end by 10:40 am.</li><br>
+        <li class="h4tag">Participants will receive grace time till 10:15 am for joining the competition.</li><br>
+        <li class="h4tag">No gadgets will be allowed inside the venue. If found, it will lead to direct disqualification.</li><br>
+        <li class="h4tag">Top scoring teams will qualify for the next round.</li><br>
+        <li class="h4tag">The number of teams to be qualified for the next round will be decided on the number of teams attending the competition on that day.</li><br><br>
+        <hr class="line">
+        <br><br><br>
+
+        <ul class="h2tag-2">Round 2- Final Round</ul><br>
+        <li class="h4tag">There will be seven stages.</li><br>
+        <li class="h4tag">For the first six stages, each team will be asked 2 questions.</li><br>
+        <li class="h4tag">Each question has a time limit of 10-15 seconds.</li><br>
+        <li class="h4tag">A correctly answered question will award you 10 points and a passed question will award you 5 points.</li><br>
+        <li class="h4tag">Stage 7 will be a Rapid Fire Round where each team will be asked 10 questions in quick succession each weighing 2 points.</li><br>
+        <li class="h4tag">There will be no negative points.</li><br>
+        <li class="h4tag">The Quiz Master’s decision will be the final</li><br><br><br><br>
+      </div>
+    </div>
+
+  </div>
+  <div class="form_1" id="registration-section">
+    <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3HOyrcPVc9tcDdTPxCKdWhnNO24ErgQiIe_EuTsTjEPvQuA/formResponse" method="POST">
+      <h1>Register Now!</h1>
+      <div class="form-element">
+          <span>Name</span>
+          <input type="text" name="entry.929986179" required placeholder="Enter your Name">
+      </div>
+
+      <div class="form-element radioButton">
+          <span>Query</span>
+          <label for="Business">
+              <span>Business</span>
+              <input type="radio" name="entry.362425322" required id="Business" value="Business">
+          </label>
+          <label for="Personal">
+              <span>Personal</span>
+              <input type="radio" name="entry.362425322" id="Personal" value="Personal">
+          </label>
+      </div>
+
+      <div class="form-element">
+          <span>Message</span>
+          <textarea name="entry.1079929955" id="" cols="30" rows="10" required placeholder="Type your Message"></textarea>
+      </div>
+      <center><button type="submit">Register</button></center>
+  </form>
+
+  <script>
+      document.getElementById("myForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the form from submitting
+          var confirmed = window.confirm("Your response is recorded."); // Display a confirmation dialog
+          if (confirmed) {
+              // If the user clicks "OK," submit the form
+              this.submit();
+          }
+      });
+  </script>
+  </div>
+  <a href="#" class="top">↑</a>
+
+  <script src="../src/particles.js"> </script>
+  <script src="../src/app.js"> </script>
+
+</body>
+
+</html>

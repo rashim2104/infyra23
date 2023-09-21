@@ -23,7 +23,7 @@
   
 ::-webkit-scrollbar-thumb {
 border-radius: 20px;
-background: #0288d1;
+background: #F9943B;
 }
 
 body{
@@ -47,7 +47,7 @@ body{
     z-index: 99991;
     flex-direction: column;
     gap: 20px;
-    transition: opacity 1s ease;
+    transition: opacity 10s ease;
     padding: 5%;
     text-align: center;
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
@@ -147,7 +147,7 @@ body{
   
 
 .ghost-btn{
-    outline: 1px solid #0288d1;
+    outline: 1px solid #F9943B;
 }
 
 h1,h2{
@@ -215,15 +215,15 @@ h1{
     text-decoration: none;
     padding: .75rem 1.25rem;
     border-radius: 12px;
-    box-shadow: 0 0 25px #1565c0;
+    box-shadow: 0 0 25px #F9943B;
     font-family: 'Montserrat', sans-serif;
 }
 
 .countdown-date .page-button:hover{
     color: white;
-    background-color: #1565c0;
+    background-color: #F9943B;
     transform: scale(1.1);
-    box-shadow: 0 0 35px #1565c0;
+    box-shadow: 0 0 35px #F9943B;
 }
 
 .about-us{
@@ -283,8 +283,8 @@ hr{
     -webkit-backdrop-filter: blur(16px) saturate(180%); */
     background-color: rgba(24, 24, 24, 0.5);
     border-radius: 12px;
-    border: 1px solid #0288d1;
-    box-shadow: 0 0 10px #0288d1;
+    border: 1px solid #F9943B;
+    box-shadow: 0 0 10px #F9943B;
     gap: 10px;
     text-align: center;
     transition: transform 0.1s ease, box-shadow 0.1s ease, background-color 0.1s ease;
@@ -294,14 +294,14 @@ hr{
 
 .event-card:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 40px #0288d1;
+    box-shadow: 0 0 40px #F9943B;
     background-color: rgba(255, 255, 255, 0.13);
 }
 
 .event-card a{
     font-size: 1.2rem;
     color: #eeeeee;
-    background-color: #1565c0;
+    background-color: #F9943B;
     transition: background-color 0.3s;
     transition: all 0.3s;
     text-decoration: none;
@@ -315,9 +315,9 @@ hr{
 
 .event-card a:hover{
     color: white;
-    background-color: #1976d2;
+    background-color: #F9943B;
     transform: scale(1.1);
-    box-shadow: 0 0 15px #1565c0;
+    box-shadow: 0 0 15px #F9943B;
 }
 
 .event-card div{
@@ -340,10 +340,10 @@ hr{
 }
 
 #particles-js{
-    position: absolute;
+    position: fixed;
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     z-index: -99999;
     top: 0;
@@ -384,13 +384,13 @@ hr{
     width: 70%;
     outline: 1px solid white;
     border-radius: 12px;
-    border: 1px solid #0288d1;
-    box-shadow: 0 0 10px #0288d1;
+    border: 1px solid #F9943B;
+    box-shadow: 0 0 10px #F9943B;
     transition: box-shadow 0.3s ease;
 }
 
 .event-reg-btn:hover img{
-    box-shadow: 0 0 40px #0288d1;
+    box-shadow: 0 0 40px #F9943B;
 }
 
 .event-info{
@@ -477,7 +477,7 @@ hr{
     width: 25%;
     border-radius: 10px;
     outline: 1px solid white;
-    box-shadow: 0 0 10px #0288d1;
+    box-shadow: 0 0 10px #F9943B;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
@@ -495,7 +495,7 @@ hr{
 
 .company-btn:hover{
     /* transform: scale(1.02); */
-    box-shadow: 0 0 30px #0288d1;
+    box-shadow: 0 0 30px #F9943B;
 }
 
 footer{
@@ -610,13 +610,13 @@ footer a:hover{
     outline: 1px solid #eeeeee;
     border-radius: 5px;
     text-decoration: none;
-    box-shadow: 0 0 10px #0288d1;
+    box-shadow: 0 0 10px #F9943B;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
     transform: scale(0);
 }
 
 .top:hover{
-    box-shadow: 0 0 30px #0288d1;
+    box-shadow: 0 0 30px #F9943B;
 }
 
 .show-top{

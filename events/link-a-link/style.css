@@ -31,16 +31,16 @@ body {
   background-color: rgba(0, 0, 0, 0.329);
   color: #eeeeee;
   cursor: pointer;
-  outline: 1px solid #0288d1;
+  outline: 1px solid #F9943B;
   border-radius: 5px;
   text-decoration: none;
-  box-shadow: 0 0 10px #0288d1;
+  box-shadow: 0 0 10px #F9943B;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   transform: scale(0);
 }
 
 .top:hover {
-  box-shadow: 0 0 30px #0288d1;
+  box-shadow: 0 0 30px #F9943B;
 }
 
 .show-top {
@@ -62,22 +62,22 @@ body {
 
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background: #0277bd;
+  background: #F9A23B;
 }
 
 .line {
   border: none;
-  background-color: #0288d1;
+  background-color: #F9943B;
   height: 1px;
   width: 100%;
   margin: auto;
-  box-shadow: 0 0 10px #0288d1;
+  box-shadow: 0 0 10px #F9943B;
 }
 
 .line2 {
   border: none;
-  box-shadow: 0 0 10px #0288d1;
-  background-color: #0288d1;
+  box-shadow: 0 0 10px #F9943B;
+  background-color: #F9943B;
   height: 1px;
   /* color: #eeeeee; */
   width: 80%;
@@ -130,7 +130,7 @@ body {
 }
 
 .h1tag {
-  color: #0277bd;
+  color: #F9A23B;
   font-size: 30px;
   text-align: center;
   padding-bottom: 50px;
@@ -146,10 +146,19 @@ body {
 }
 
 .h2tag-2 {
-  color: #03a9f4;
+  color: #F9A23B;
   font-size: 35px;
   text-align: center;
   line-height: 3rem;
+}
+
+.h2tag-3 {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  padding: 0 2rem;
+  line-height: 3.5rem;
+  color: #e1f5fe;
 }
 
 .h3tag {
@@ -173,7 +182,7 @@ body {
   margin: auto;
   margin-top: 50px;
   border-radius: 20px;
-  box-shadow: 0 0 10px #0288d1;
+  box-shadow: 0 0 10px #F9943B;
   backdrop-filter: blur(1px) saturate(180%);
   -webkit-backdrop-filter: blur(1px) saturate(180%);
   background-color: rgba(0, 0, 0, 0.3);
@@ -195,30 +204,29 @@ body {
   justify-content: center;
 }
 
-.btn,.btn1 {
+.btn, .btn1 {
   font-size: 1.4rem;
   color: #eeeeee;
-  transition: background-color 0.3s;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
   text-decoration: none;
   padding: .75rem 1.25rem;
   border-radius: 12px;
-  box-shadow: 0 0 25px #1565c0;
-  outline: 1px solid #0277bd;
+  box-shadow: 0 0 25px #F9A23B;
+  outline: 1px solid #F9A23B;
 }
 
 .btn:hover {
   color: white;
-  background-color: #1565c0;
+  background-color: #F9A23B;
   transform: scale(1.1);
-  box-shadow: 0 0 35px #1565c0;
+  box-shadow: 0 0 35px #F9A23B;
 }
 
 .btn1:hover {
   color: white;
-  background-color: #1565c0;
+  background-color: #F9A23B;
   transform: scale(1.1);
-  box-shadow: 0 0 35px #1565c0;
+  box-shadow: 0 0 35px #F9A23B;
 }
 .h2tag-3 {
   font-weight: 500;
@@ -234,27 +242,28 @@ body {
     box-sizing: border-box;
   }
 
-  .btn1{
+  .btn1 {
     display: none;
   }
-  
+
   .line {
     border: none;
-    background-color: #0288d1;
+    background-color: #F9943B;
     height: 1px;
     width: 100%;
     margin: auto;
-    box-shadow: 0 0 10px #0288d1;
+    box-shadow: 0 0 10px #F9943B;
   }
 
   .line2 {
     border: none;
-    box-shadow: 0 0 10px #0288d1;
-    background-color: #0288d1;
+    box-shadow: 0 0 10px #F9943B;
+    background-color: #F9943B;
     height: 1px;
     /* color: #eeeeee; */
     width: 80%;
     margin: auto;
+    margin-top: 10px;
   }
 
   .brand-name {
@@ -277,7 +286,7 @@ body {
 
   .h2tag-2 {
     font-family: 'Montserrat', sans-serif;
-    color: #03a9f4;
+    color: #F9A23B;
     font-size: 23px;
     text-align: center;
     line-height: 2.5rem;
