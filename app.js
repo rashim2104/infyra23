@@ -117,7 +117,7 @@ const heroImgGlitch = PowerGlitch.glitch(heroImg,{
 });
 
 document.addEventListener("DOMContentLoaded",()=>{
-  var time = new Date('13 October, 2023 10:00:00').getTime()/1000 + 1;
+  var time = new Date('14 October, 2023 10:00:00').getTime()/1000 + 1;
 
   var flipdown = new FlipDown(time).start().ifEnded(()=>{
       console.log("mudinchu")
