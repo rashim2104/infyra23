@@ -130,8 +130,8 @@
   }
   .domain-card{
     width:250px;
-    background: #888;
-    border-radius: 25%;
+    background: #F8D3D6;
+    border-radius: 10%;
   }
   main a{
     display: flex;

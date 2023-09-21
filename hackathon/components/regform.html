@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Registration - HIH</title>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="/hackathon/components/CSS/form.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Registration - HIH"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="/hackathon/src/favicon.ico">
+  <link href="/hackathon/components/CSS/navbar.css" rel="stylesheet"/>
+  <link href="/hackathon/style.css" rel="stylesheet"/>
+  <link href="/hackathon/components/CSS/center.css" rel="stylesheet"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+  <link href="/hackathon/components/CSS/domain.css" rel="stylesheet"/>
+  <link href="/hackathon/components/CSS/footer.css" rel="stylesheet"/>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/powerglitch@latest/dist/powerglitch.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body id="hackathon">
+  <div id="particles-js"></div>
+  <nav class="header-nav">
+    <div class="branding">
+        <a href="/hackathon/index.html"><img src="/hackathon/src/HackInHub-Logo1.png" alt=""></a>
+        <h1 class="brand-name">Hack In Hub</h1>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="/index.html" class="nav-btn">Infyra</a>
+        <a href="/hackathon//index.html#schedule" class="nav-btn">Schedule</a>
+        <a href="/hackathon//index.html#domains" class="nav-btn">Problem Statements</a>
+        <a href="/hackathon/components/guidelines.html" class="nav-btn">Guidelines</a>
+        <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
+    </div>
+  </nav>
+
+  <div class="nav-buttons-mobile hidden-nav">
+    <a href="/index.html" class="nav-btn">Infyra</a>
+    <a href="/hackathon//index.html#schedule-mobile" class="nav-btn">Schedule</a>
+    <a href="/hackathon//index.html#domains-mobile" class="nav-btn">Problem Statements</a>
+    <a href="components/guidelines.html" class="nav-btn">Guidelines</a>
+    <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
+  </div>
+
+  <div class="hamburger">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+  </div>
+  <center>
+    <img class="glitch" src="/hackathon/src/HackInHub-Logo1.png"/>
+    <h1 class="join-build-learn">Join<span> ~ </span>Build<span> ~ </span>Learn</h1>
+    <p class="desc">Bring-out your hidden tech genius in this <span>24</span> hours hackathon by solving difficult problems faced by the public.</p>
+    <br id="schedule-mobile">
+  </center>
+
+  <div class="form_1" id="registration-section">
+    <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3HOyrcPVc9tcDdTPxCKdWhnNO24ErgQiIe_EuTsTjEPvQuA/formResponse" method="POST">
+      <h1>Register Now!</h1>
+        <div class="form-element">
+            <span>Email</span>
+            <input type="email" name="emailAddress" required placeholder="Enter your mail-id">
+        </div>
+
+        <div class="form-element">
+          <span>Name (Team Lead)</span>
+          <input type="text" name="entry.1250123033" required placeholder="Name">
+      </div>
+
+      <div class="form-element">
+        <span>College Mail id</span>
+        <input type="email" name="entry.722737539" required placeholder="College Mail Id">
+    </div>
+
+    <div class="form-element">
+      <span>Department Name</span>
+      <input type="text" name="entry.747861559" required placeholder="Department Name">
+  </div>
+
+  <div class="form-element">
+    <span>Name of the College</span>
+    <input type="text" name="entry.1182540293" required placeholder="Name of the College">
+</div>
+
+      <div class="form-element radioButton">
+          <span>Year of Study</span>
+          <label for="I">
+              <span>I</span>
+              <input type="radio" name="entry.1465526594" required id="I" value="I">
+          </label>
+          <label for="II">
+            <span>II</span>
+            <input type="radio" name="entry.1465526594" required id="II" value="II">
+        </label>
+        <label for="III">
+          <span>III</span>
+          <input type="radio" name="entry.1465526594" required id="III" value="III">
+      </label>
+      <label for="IV">
+        <span>IV</span>
+        <input type="radio" name="entry.1465526594" required id="IV" value="IV">
+    </label>
+      </div>
+
+      <div class="form-element">
+        <span>Phone Number (Whatsapp)</span>
+        <input type="number" name="entry.1182540293" required placeholder="Phone">
+    </div>
+
+      <div class="form-element">
+          <span>Message</span>
+          <textarea name="entry.1079929955" id="" cols="30" rows="10" required placeholder="Type your Message"></textarea>
+      </div>
+      <center><button type="submit">Register</button></center>
+  </form>
+
+  <script>
+      document.getElementById("myForm").addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent the form from submitting
+          var confirmed = window.confirm("Your response is recorded."); // Display a confirmation dialog
+          if (confirmed) {
+              // If the user clicks "OK," submit the form
+              this.submit();
+          }
+      });
+  </script>
+  </div>
+
+
+
+  <footer id="footer">
+
+    <div class="contact-card">
+        <center><b>CONTACT</b></center>
+        <br>
+        <div class="mail">
+          <img src="src/footerlogos/mail.png"/>
+          <a href="mailto:lyncfest@sairamit.edu.in">lyncfest@sairamit.edu.in</a>
+        </div>
+        <br>
+        <div class="profile">
+          <div>
+            <img src="src/footerlogos/person.png"/>
+            Sowrerajan N
+          </div>
+          <div>
+            <img src="src/footerlogos/phone.png" alt="">
+            <a href="tel:+916374995018">6374995018</a>
+          </div>
+        </div>
+        <br>
+        <div class="profile">
+          <div>
+            <img src="src/footerlogos/person.png"/>
+            Harish D
+          </div>
+          <div>
+            <img src="src/footerlogos/phone.png" alt="">
+            <a href="tel:+919345456736">9345456736</a>
+          </div>
+        </div> 
+      </div>
+
+      <div class="location-card">
+        <div>
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62210.801033170384!2d79.98319465820313!3d12.960647099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f51f638ddfbb%3A0xf3aef7ec7c8979ba!2sSri%20Sairam%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1664645478525!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <div class="address">
+          <span>Sri Sai Ram Institute of Technology</span>
+          <p>Sai Leo Nagar, West Tambaram,</p>
+          <p>Chennai - 600044</p>
+        </div>
+      </div>
+
+      <div class="social-handles">
+        <div class="lync">
+          Infyra :
+          <br>
+          <a target="_blank" href="https://www.instagram.com/infyra22">
+            <img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png"/>
+          </a>
+        </div>
+        <br>
+        IT Dept ~ SIT :
+        <br>
+        <div class="sairam">
+          <a target="_blank" href="https://www.instagram.com/sairamit_it/"><img src="https://img.icons8.com/material-outlined/48/000000/instagram-new--v1.png"/></a>
+          <a target="_blank" href="https://www.facebook.com/sairamitit/videos/315808929880804/?extid=NS-UNK-UNK-UNK-IOS_GK0T-GK1C"><img src="https://img.icons8.com/material-outlined/48/000000/facebook.png"/></a>
+          <a target="_blank" href="https://www.linkedin.com/posts/sairamit-information-technology_technoholix-activity-6859120428582076416-6hL"><img src="https://img.icons8.com/material-outlined/48/000000/linkedin--v1.png"/></a>
+        </div>
+      </div>
+</footer>
+    <a href="#" class="top">↑</a>
+    <script src="components/JS/domain.js"></script>
+    <script src="components/JS/navbar.js"></script>
+    <script src="components/JS/particles.js"></script>
+    <script src="app.js"></script>
+    <script>AOS.init();</script>
+
+
+  </body>
+</html>
