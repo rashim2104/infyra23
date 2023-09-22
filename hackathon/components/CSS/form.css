@@ -12,7 +12,7 @@
 }
 
 .form_1{
-    height: 150rem;
+    height: 160rem;
     color: black;
     display: flex;
     align-items: center;
@@ -131,4 +131,8 @@ input,textarea{
 
 .form-element select:focus {
     border: 1px solid #E53935;
+}
+
+.probbutton h3{
+    color: #E53935;
 }
