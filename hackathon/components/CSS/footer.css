@@ -87,10 +87,12 @@ footer a:hover{
   justify-content: center;
 }
 
-
 .social-handles img{
   filter: invert(100%);
   width: 38px;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .social-handles{
@@ -98,6 +100,8 @@ footer a:hover{
   flex-direction: column;
   /* outline: 1px solid red; */
 }
+
+
 @media (max-width:800px){
   footer{
     align-items: center;
@@ -108,7 +112,7 @@ footer a:hover{
 }
 
   .social-handles{
-      margin-left: 10%;
-      margin-right: auto;
+      margin-left: 0;
+      
   }
 }
