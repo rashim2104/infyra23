@@ -12,7 +12,7 @@
 }
 
 .form_1{
-    height: 105rem;
+    height: 150rem;
     color: black;
     display: flex;
     align-items: center;
@@ -75,4 +75,60 @@ input,textarea{
     box-shadow: 0 0 35px #E53935;
     cursor: pointer;
   }
-  
+
+  .probbutton button{
+    font-size: 1rem;
+    color: #E53935;
+    background-color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    text-decoration: none;
+    padding: .75rem 1.25rem;
+    border-radius: 12px;
+    box-shadow: 0 0 25px #E53935;
+    outline: 1px solid #E53935;
+  }
+
+  .probbutton button:hover{
+    color: white;
+    background-color: #E53935;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.05);
+    box-shadow: 0 0 35px #E53935;
+    cursor: pointer;
+  }
+
+  .form-element select {
+    border: 1px solid white;
+    line-height: 2;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Style the options in the dropdown */
+.form-element select option {
+    background-color: black;
+    color: white;
+}
+
+/* Style the dropdown arrow */
+.form-element select::-ms-expand {
+    display: none;
+}
+
+/* Style the hover effect on the select element */
+.form-element select:hover {
+    border: 1px solid #E53935;
+}
+
+/* Style the active (clicked) select element */
+.form-element select:active {
+    border: 1px solid #E53935;
+}
+
+.form-element select:focus {
+    border: 1px solid #E53935;
+}

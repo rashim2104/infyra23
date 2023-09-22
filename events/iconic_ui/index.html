@@ -66,42 +66,43 @@
 
   </div>
   <div class="form_1" id="registration-section">
-    <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3HOyrcPVc9tcDdTPxCKdWhnNO24ErgQiIe_EuTsTjEPvQuA/formResponse" method="POST">
-      <h1>Register Now!</h1>
-      <div class="form-element">
-          <span>Name</span>
-          <input type="text" name="entry.929986179" required placeholder="Enter your Name">
-      </div>
+      <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3HOyrcPVc9tcDdTPxCKdWhnNO24ErgQiIe_EuTsTjEPvQuA/formResponse" method="POST">
+        <h1>Register Now!</h1>
+        <div class="form-element">
+            <span>Name</span>
+            <input type="text" name="entry.929986179" required placeholder="Enter your Name">
+        </div>
 
-      <div class="form-element radioButton">
-          <span>Query</span>
-          <label for="Business">
-              <span>Business</span>
-              <input type="radio" name="entry.362425322" required id="Business" value="Business">
-          </label>
-          <label for="Personal">
-              <span>Personal</span>
-              <input type="radio" name="entry.362425322" id="Personal" value="Personal">
-          </label>
-      </div>
+        <div class="form-element radioButton">
+            <span>Query</span>
+            <label for="Business">
+                <span>Business</span>
+                <input type="radio" name="entry.362425322" required id="Business" value="Business">
+            </label>
+            <label for="Personal">
+                <span>Personal</span>
+                <input type="radio" name="entry.362425322" id="Personal" value="Personal">
+            </label>
+        </div>
+        <div class="form-element">
+          <span>Domain</span>
+          <select name="entry.1356852405" required>
+              <option value="">Select an option</option>
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+          </select>
+        </div>
+      
+        <div class="form-element">
+            <span>Message</span>
+            <textarea name="entry.1079929955" id="" cols="30" rows="10" required placeholder="Type your Message"></textarea>
+        </div>
+        <center><button type="submit">Register</button></center>
+    </form>
 
-      <div class="form-element">
-          <span>Message</span>
-          <textarea name="entry.1079929955" id="" cols="30" rows="10" required placeholder="Type your Message"></textarea>
-      </div>
-      <center><button type="submit">Register</button></center>
-  </form>
-
-  <script>
-      document.getElementById("myForm").addEventListener("submit", function (event) {
-          event.preventDefault(); // Prevent the form from submitting
-          var confirmed = window.confirm("Your response is recorded."); // Display a confirmation dialog
-          if (confirmed) {
-              // If the user clicks "OK," submit the form
-              this.submit();
-          }
-      });
-  </script>
+  
   </div>
   <a href="#" class="top">↑</a>
 
