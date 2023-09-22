@@ -12,7 +12,7 @@
 }
 
 .form_1{
-    height: 160rem;
+    height: 170rem;
     color: black;
     display: flex;
     align-items: center;
@@ -22,6 +22,10 @@
     -webkit-backdrop-filter: blur(1px) saturate(180%);
     background-color: rgba(0, 0, 0, 0.3);
     border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.form_1 h1{
+    color: white;
 }
 
 form{
@@ -135,4 +139,62 @@ input,textarea{
 
 .probbutton h3{
     color: #E53935;
+}
+
+/* Animation for input labels */
+.input-field:focus + .input-label,
+.input-field:valid + .input-label {
+  color: #6658d3;
+  transform: translateY(-1.5rem);
+}
+
+/* Style text, email, and phone inputs as lines */
+.form-element input[type="text"],
+.form-element input[type="email"]{
+  border: none;
+  color: white;
+  border-bottom: 2px solid #E53935; /* Add a bottom border */
+  background: transparent; /* Make the background transparent */
+  width: 100%;
+  padding: 5px; /* Add some padding for spacing */
+  margin: 5px 0; /* Add margin for spacing between inputs */
+  outline: none; /* Remove the default input outline */
+}
+
+/* Style number input fields and disable spinner buttons */
+    .form-element input[type="number"] {
+        border: none;
+        border-bottom: 2px solid #E53935; /* Add a bottom border */
+        color: white;
+        background: transparent; /* Make the background transparent */
+        width: 100%;
+        padding: 5px; /* Add some padding for spacing */
+        margin: 5px 0; /* Add margin for spacing between inputs */
+        outline: none; /* Remove the default input outline */
+        -webkit-appearance: textfield; /* Disable spinner buttons for WebKit browsers */
+        -moz-appearance: textfield; /* Disable spinner buttons for Firefox */
+    }
+    
+
+/* Style the select element */
+.form-element select {
+  border: none;
+  border-bottom: 1px solid #E53935;
+  background: transparent;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+  outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
