@@ -47,8 +47,9 @@ center span{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-decoration: none;
   padding: .75rem 1.25rem;
+  background-color: #FF3131;
   border-radius: 12px;
-  outline: 1px solid #FF3131;
+  
   /* margin-top: 20px; */
   /* margin-bottom: 70px; */
 }
@@ -57,7 +58,7 @@ center span{
   color: white;
   background-color: #FF3131;
   transform: scale(1.2);
-  box-shadow: 0 0 15px #FF3131;
+  box-shadow: 0 0 5px #FF3131;
 }
 .glitch{
   margin-top: 20%;

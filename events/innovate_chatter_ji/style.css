@@ -211,6 +211,7 @@ body {
   text-decoration: none;
   padding: .75rem 1.25rem;
   border-radius: 12px;
+  background-color: #F9A23B;
   box-shadow: 0 0 25px #F9A23B;
   outline: 1px solid #F9A23B;
 }
@@ -311,4 +312,3 @@ body {
     line-height: 2.5rem;
   }
 }
-  

@@ -29,8 +29,8 @@
 
     <div class="nav-buttons">
         <a href="/index.html" class="nav-btn">Infyra</a>
-        <a href="/hackathon//index.html#schedule" class="nav-btn">Schedule</a>
-        <a href="/hackathon//index.html#domains" class="nav-btn">Problem Statements</a>
+        <a href="/hackathon/index.html#schedule" class="nav-btn">Schedule</a>
+        <a href="/hackathon/index.html#domains" class="nav-btn">Problem Statements</a>
         <a href="/hackathon/components/guidelines.html" class="nav-btn">Guidelines</a>
         <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
     </div>
@@ -38,8 +38,8 @@
 
   <div class="nav-buttons-mobile hidden-nav">
     <a href="/index.html" class="nav-btn">Infyra</a>
-    <a href="/hackathon//index.html#schedule-mobile" class="nav-btn">Schedule</a>
-    <a href="/hackathon//index.html#domains-mobile" class="nav-btn">Problem Statements</a>
+    <a href="/hackathon/index.html#schedule-mobile" class="nav-btn">Schedule</a>
+    <a href="/hackathon/index.html#domains-mobile" class="nav-btn">Problem Statements</a>
     <a href="components/guidelines.html" class="nav-btn">Guidelines</a>
     <a href="/hackathon/components/regform.html" class="nav-btn ghost-btn">Register</a>
   </div>
@@ -52,13 +52,13 @@
   <center>
     <img class="glitch" src="/hackathon/src/HackInHub-Logo1.png"/>
     <h1 class="join-build-learn">Join<span> ~ </span>Build<span> ~ </span>Learn</h1>
-    <p class="desc">Bring-out your hidden tech genius in this <span>24</span> hours hackathon by solving difficult problems faced by the public.</p>
+    <p class="desc">Bring-out your hidden tech genius in this <span>28</span> hours hackathon by solving difficult problems faced by the public.</p>
     <br id="schedule-mobile">
   </center>
 
   <div class="form_1" id="registration-section">
     <form id="myForm" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCxAf_z7tiYTaW4ZQsokC27DkgEXTGSexVzQHWi-3jxGLC0w/formResponse" method="POST">
-      <center><h1>Register Here!</h1></center>
+      <center><h1>Register Now!</h1></center>
         <div class="form-element">
           <span>Name (Team Lead)</span>
           <input type="text" name="entry.1250123033" required placeholder="Name" class="textInput" width="100px">
@@ -86,23 +86,24 @@
 
         <div class="form-element radioButton">
           <span>Year of Study</span>
-          <label for="I">
-              <span>I</span>
+          <label>
               <input type="radio" name="entry.1465526594" required id="I" value="I">
+              <span>I</span>
           </label>
-          <label for="II">
-              <span>II</span>
+          <label>
               <input type="radio" name="entry.1465526594" required id="II" value="II">
+              <span>II</span>
           </label>
-          <label for="III">
-              <span>III</span>
+          <label>
               <input type="radio" name="entry.1465526594" required id="III" value="III">
+              <span>III</span>
           </label>
-          <label for="IV">
-              <span>IV</span>
+          <label>
               <input type="radio" name="entry.1465526594" required id="IV" value="IV">
+              <span>IV</span>
           </label>
       </div>
+      
       
 
       <div class="form-element">
@@ -174,7 +175,7 @@
       <br>
 
       <div class="probbutton">
-        <a href="/hackathon/components/tables.html" target="_blank"><h3>View Problem Statements here</h3></a>
+        <a href="/hackathon/components/tables.html" target="_blank"><button>View Problem Statements here</button></a>
       </div>
       <br>
 
@@ -233,7 +234,7 @@
     <br>
 
     <div class="probbutton">
-        <h3>Upload Abstract in Google Drive and Make Sure to change the <br> Access as Anyone with the Link can Access</h3>
+        <h3>Upload Abstract in Google Drive and Make it Public.</h3>
     </div>
 
     <div class="form-element">
@@ -250,7 +251,7 @@
   <script>
       document.getElementById("myForm").addEventListener("submit", function (event) {
           event.preventDefault(); // Prevent the form from submitting
-          var confirmed = window.confirm("Kindly Upload your Abstract in the Next Tab"); // Display a confirmation dialog
+          var confirmed = window.confirm("Thanks for Registering :)"); // Display a confirmation dialog
           if (confirmed) {
               // If the user clicks "OK," submit the form
               this.submit();
@@ -277,7 +278,7 @@
             Sowrerajan N
           </div>
           <div>
-            <img src="/hackathon//hackathon/src/footerlogos/phone.png" alt="">
+            <img src="/hackathon/hackathon/src/footerlogos/phone.png" alt="">
             <a href="tel:+916374995018">6374995018</a>
           </div>
         </div>
@@ -327,6 +328,7 @@
     <a href="#" class="top">↑</a>
     <script src="/hackathon/components/JS/domain.js"></script>
     <script src="/hackathon/components/JS/navbar.js"></script>
+    <script src="/hackathon/components/JS/lessparticle.js"></script>
     <script src="/hackathon/components/JS/particles.js"></script>
     <script src="app.js"></script>
     <script>AOS.init();</script>

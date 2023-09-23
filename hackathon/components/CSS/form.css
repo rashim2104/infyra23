@@ -14,7 +14,7 @@
 
 
 .form_1{
-    height: 180rem;
+    height: 185rem;
     color: black;
     display: flex;
     align-items: center;
@@ -34,7 +34,7 @@ form{
     padding: 60px;
     box-shadow: 0 0 10px #E53935;
     border-radius: 12px;
-    width: 80%;
+    width: 60vw;
     max-width: calc(100% - 60px);
 }
 
@@ -102,7 +102,7 @@ form{
     border-radius: 5px 5px 0px 0px;
     box-shadow: 0px 2px 5px rgb(35 35 35 / 30%);
     max-height: 36px;
-    background-color: #252525;
+    background-color: #353535;
     transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
     transition-duration: 200ms;
     transition-property: background-color;
@@ -156,13 +156,14 @@ input,textarea{
 
 .form_1 button{
     font-size: 1.4rem;
-    color: #E53935;
+    color: white;
     background-color: black;
     transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
     text-decoration: none;
     padding: .75rem 1.25rem;
+    background-color: #E53935;
     border-radius: 12px;
-    box-shadow: 0 0 25px #E53935;
+    font-family: 'Poppins';
     outline: 1px solid #E53935;
   }
 
@@ -172,20 +173,20 @@ input,textarea{
     justify-content: center;
     align-items: center;
     transform: scale(1.1);
-    box-shadow: 0 0 35px #E53935;
+    font-family: 'Poppins';
     cursor: pointer;
   }
 
   .probbutton button{
     font-size: 1rem;
-    color: #E53935;
-    background-color: black;
-    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s;
+    color: white;
+    background-color: #E53935;
+    transition: transform 0.3s ease, background-color 0.3s;
     text-decoration: none;
     padding: .75rem 1.25rem;
     border-radius: 12px;
-    box-shadow: 0 0 25px #E53935;
     outline: 1px solid #E53935;
+
   }
 
   .probbutton button:hover{
@@ -194,7 +195,7 @@ input,textarea{
     justify-content: center;
     align-items: center;
     transform: scale(1.05);
-    box-shadow: 0 0 35px #E53935;
+    box-shadow: 0 0 10px #E53935;
     cursor: pointer;
   }
 
@@ -233,7 +234,7 @@ input,textarea{
   border: none;
   color: white;
    /* Add a bottom border */
-  background: transparent; /* Make the background transparent */
+   background-color: #353535; /* Make the background transparent */
   width: 100%;
   padding: 5px; /* Add some padding for spacing */
   margin: 5px 0; /* Add margin for spacing between inputs */
@@ -245,7 +246,7 @@ input,textarea{
         border: none;
          /* Add a bottom border */
         color: white;
-        background: transparent; /* Make the background transparent */
+        background-color: #353535;   /* Make the background transparent */
         width: 100%;
         padding: 5px; /* Add some padding for spacing */
         margin: 5px 0; /* Add margin for spacing between inputs */
@@ -267,6 +268,13 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
+
+::-webkit-input-placeholder{
+  font-family: 'Poppins';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.582);
+}
+
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
@@ -275,6 +283,8 @@ input[type=number] {
 @media (max-width:800px){
     .form_1{
         height: 190rem;
+        padding: 0;
     }
   }
   
+
