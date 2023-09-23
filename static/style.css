@@ -313,6 +313,10 @@ hr{
     font-weight: 500;
 }
 
+.about-us p{
+    justify-content: center;
+}
+
 .event-card a:hover{
     color: white;
     background-color: #F9943B;
@@ -627,3 +631,23 @@ footer a:hover{
 .show-top{
     transform: scale(1);
 }
+
+@media (max-width:800px){
+    .about-us {
+        text-align: justify; /* Justify the text within the section */
+        padding: 20px; /* Add some padding for spacing */
+      }
+      
+      .about-us h1 {
+        font-size: 24px; /* Adjust the font size as needed for mobile */
+        margin-bottom: 10px; /* Add spacing below the heading */
+      }
+      
+      .about-us p {
+        text-align: justify;
+        font-size: 16px; /* Adjust the font size as needed for mobile */
+        margin-bottom: 20px; /* Add spacing below the paragraphs */
+      }
+      
+  }
+   

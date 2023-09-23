@@ -34,12 +34,12 @@ setTimeout(()=>{
   overlayGlitchEffect.stopGlitch();
   overlayGlitch.classList.add("hide-away");
   document.querySelector(".he").scrollIntoView();
-},4500);
+},2300);
 
 setTimeout(() => {
   overlayGlitch.remove();
   document.body.classList.remove("disable-scroll");
-}, 5200);
+}, 2500);
 
 document.querySelector('.hamburger').addEventListener('click', (e)=>{
   document.querySelector('.nav-buttons-mobile').classList.toggle('hidden-nav')
